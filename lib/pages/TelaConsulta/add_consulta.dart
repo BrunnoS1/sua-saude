@@ -95,8 +95,8 @@ class _NovaConsultaState extends State<NovaConsulta> {
               const SizedBox(height: 40),
               TextButton(
                 style: ButtonStyle(
-                  backgroundColor: WidgetStateProperty.all(const Color.fromARGB(255, 123, 167, 150)),
-                  fixedSize: WidgetStateProperty.all(const Size.fromWidth(100)),
+                  backgroundColor: MaterialStateProperty.all(const Color.fromARGB(255, 123, 167, 150)),
+                  fixedSize: MaterialStateProperty.all(const Size.fromWidth(100)),
                 ),
                 onPressed: _pickImage,
                 child: const Text('Adicionar Foto da consulta', style: TextStyle(color: Colors.white)),

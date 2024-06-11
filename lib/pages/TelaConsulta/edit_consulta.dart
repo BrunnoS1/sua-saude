@@ -97,8 +97,8 @@ class _EditarConsultaState extends State<EditarConsulta> {
               const SizedBox(height: 40),
               TextButton(
                 style: ButtonStyle(
-                  backgroundColor: WidgetStateProperty.all(const Color.fromARGB(255, 123, 167, 150)),
-                  fixedSize: WidgetStateProperty.all(const Size.fromWidth(100)),
+                  backgroundColor: MaterialStateProperty.all(const Color.fromARGB(255, 123, 167, 150)),
+                  fixedSize: MaterialStateProperty.all(const Size.fromWidth(100)),
                 ),
                 onPressed: _pickImage,
                 child: const Text('Adicionar Foto da consulta', style: TextStyle(color: Colors.white)),
@@ -240,8 +240,8 @@ class _EditarConsultaState extends State<EditarConsulta> {
           const SizedBox(height: 15),
           ElevatedButton(
             style: const ButtonStyle(
-              backgroundColor: WidgetStatePropertyAll(Color.fromARGB(255, 123, 167, 150)),
-              shape: WidgetStatePropertyAll(CircleBorder()),
+              backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 123, 167, 150)),
+              shape: MaterialStatePropertyAll(CircleBorder()),
             ),
             onPressed: _removerImagem,
             child: const Icon(Icons.delete, color: Colors.white, size: 24),

@@ -133,8 +133,8 @@ class _TelaConsultaState extends State<TelaConsulta> {
                 onPressed: () => _showImageDialog(context, widget.consulta.imagem!),
                 style: const ButtonStyle(
                   alignment: Alignment.center,
-                  backgroundColor: WidgetStatePropertyAll(Color.fromARGB(255, 123, 167, 150)),
-                  fixedSize: WidgetStatePropertyAll(Size(30,20))
+                  backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 123, 167, 150)),
+                  fixedSize: MaterialStatePropertyAll(Size(30,20))
                 ),
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,

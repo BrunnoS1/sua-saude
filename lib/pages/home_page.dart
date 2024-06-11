@@ -126,12 +126,12 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.all(10),
                         child: ElevatedButton(
                             style: ButtonStyle(
-                              fixedSize: WidgetStateProperty.all(
+                              fixedSize: MaterialStateProperty.all(
                                   const Size.fromWidth(120)),
                               backgroundColor:
-                                  WidgetStateProperty.resolveWith<Color>(
-                                      (Set<WidgetState> states) {
-                                if (states.contains(WidgetState.pressed)) {
+                                  MaterialStateProperty.resolveWith<Color>(
+                                      (Set<MaterialState> states) {
+                                if (states.contains(MaterialState.pressed)) {
                                   return const Color.fromARGB(
                                       255, 123, 167, 150);
                                 }
@@ -154,12 +154,12 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.all(10),
                         child: ElevatedButton(
                             style: ButtonStyle(
-                              fixedSize: WidgetStateProperty.all(
+                              fixedSize: MaterialStateProperty.all(
                                   const Size.fromWidth(120)),
                               backgroundColor:
-                                  WidgetStateProperty.resolveWith<Color>(
-                                      (Set<WidgetState> states) {
-                                if (states.contains(WidgetState.pressed)) {
+                                  MaterialStateProperty.resolveWith<Color>(
+                                      (Set<MaterialState> states) {
+                                if (states.contains(MaterialState.pressed)) {
                                   return const Color.fromARGB(
                                       255, 123, 167, 150);
                                 }
@@ -181,12 +181,12 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.all(10),
                         child: ElevatedButton(
                             style: ButtonStyle(
-                              fixedSize: WidgetStateProperty.all(
+                              fixedSize: MaterialStateProperty.all(
                                   const Size.fromWidth(120)),
                               backgroundColor:
-                                  WidgetStateProperty.resolveWith<Color>(
-                                      (Set<WidgetState> states) {
-                                if (states.contains(WidgetState.pressed)) {
+                                  MaterialStateProperty.resolveWith<Color>(
+                                      (Set<MaterialState> states) {
+                                if (states.contains(MaterialState.pressed)) {
                                   return const Color.fromARGB(
                                       255, 123, 167, 150);
                                 }
